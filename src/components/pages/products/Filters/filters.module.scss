@@ -1,0 +1,53 @@
+
+.filtersContainer{ 
+    margin: 70px auto 0;
+    width: 90vw;
+    .filterBy{
+        margin: 20px 0;
+        font-weight: normal;
+    }
+    .filtersGrid{
+        min-height: 400px;
+        width: 100%;
+        display: grid;
+        grid-gap: 22px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        .mt10Px{
+            margin-top: 10px;
+        }
+
+    } 
+}
+
+
+
+.listContainer{
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    margin: 12px 0;
+    span:nth-child(1){
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        background-color: #000;
+        border-radius: 8px;
+    }
+    span:nth-child(2){
+       margin-left: 12px;
+    }
+}
+
+// range slider 
+.sliderParent{
+   padding: 0 12px;
+.rangePriceBtn{
+    background-color: transparent;
+    border: 1px solid #ddd;
+    padding: 7px; 
+}
+.rangeFilterBtn{
+    background-color: #efefef;
+    border: none;
+    padding: 7px 12px;
+}}

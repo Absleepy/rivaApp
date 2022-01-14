@@ -1,0 +1,18 @@
+.btn{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    margin: 5px;
+    width: 35px;
+    height: 35px;
+}
+.top{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
